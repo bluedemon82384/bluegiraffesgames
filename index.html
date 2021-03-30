@@ -1,10 +1,9 @@
 <!doctype html><html><head><style type="text/css">header {
+background:url("https://cdn.pixabay.com/photo/2019/07/03/14/05/civilization-4314653_960_720.jpg");
+color: rgb(3, 201, 3);
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
 
-  background-color: rgb(12, 8, 231) ;
-  color:rgb(233, 231, 94);
-  padding: 50px;
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
 }
 
 body {
@@ -41,12 +40,35 @@ body {
 
 }
 
+.ourgames {
+
+  display: grid;
+
+
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
 .sidebar {
 
+  height: 200px;
+  width: 150px;
   flex: 15%;
   padding-right: 2%;
-  display: inline-block;
-
+  display: grid;
+  
+  
 
 }
 
@@ -81,6 +103,11 @@ img {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
+    
+    <header id="header-background">
+        <div class="logo"></div>
+    </header>
+
 
     <header id="top">
       <h1> Board Games</h1>
@@ -90,12 +117,12 @@ img {
 
     <div id="navigationBar">
       <a href="#top">Home</a>
-      <a href="#Games We Own">Games We Own</a>
-      <a href="#webDevelopment">Web Development </a>
-      <a href="#appDevelopment">App Development </a>
-      <a href="#pythonProgramming">Python Programming</a>
-      <a href="#machineLearning">Machine Learning</a>
-      <a href="#interviewPrep">Interview Prep</a>
+      <a href="#Welcome">Welcome</a>
+      <a href="#OurGames">Our Games </a>
+      <a href="#Gamesweusedtowon">Games we used to own </a>
+      <a href="#Gameswishlist">Games Wishlist</a>
+      <a href="#GamesBecciowns">Games Becci Owns</a>
+      <a href="#GamesJarek&Sylwiaowns">Games Jarek and Sylwia Own</a>
       
 
 
@@ -108,7 +135,9 @@ img {
 
            <h2>#1 Favorite Game</h2>
 	         <img src="https://cdn.pixabay.com/photo/2019/07/03/14/05/civilization-4314653_960_720.jpg">
-           <a href="https://boardgamegeek.com/" target="_blank">Board Game Geek</a>	         
+
+           <a href="https://boardgamegeek.com/" target="_blank">Board Game Geek</a>	    
+
            <a href="https://www.amazon.com/?tag=hp-us2-bar-20" target="_blank">Amazon Wish List</a>
 
 
@@ -116,79 +145,76 @@ img {
 
             <div class="main">
 
-          <h3 id="Games We Own">Games We Own</h3>
-            <h4>Level 1</h4>
+          <h3 id="Welcome">Welcome</h3>
+            
 
-              <img src="https://cdn.pixabay.com/photo/2019/07/03/14/05/civilization-4314653_960_720.jpg">
+              
+              <p>Welcome to our board game page. Here you will find all the board games that Katherine and I currently own, or have owned in the past.
+                 You will also find a list of board games that we would like to own or play. In addition at the top are links to our board gaming friends
+                 and their vast collection. And finally on the last tab you will see a suggestion board for when, where and which games to play next.
+                 Enjoy and remember, play more games!!</p>
 
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed urna nec arcu tempus dapibus ac sed diam. Maecenas
-      sit amet sollicitudin ipsum, et mollis risus. Quisque quam mauris, aliquam eget lacus a, tincidunt dictum justo. Nulla
-      justo elit, interdum eget urna id, rhoncus dictum nisl. In tempus efficitur eros eget fringilla. Nullam in libero ante.
-      Curabitur pellentesque massa venenatis, fringilla ipsum ac, fermentum lorem. Praesent facilisis posuere fermentum.
-      Integer non posuere lacus. Cras semper ipsum in augue scelerisque euismod. Vivamus rutrum condimentum ullamcorper.
-      Phasellus placerat sollicitudin diam, et consequat purus iaculis sit amet. Suspendisse tempor, erat non ultricies
-      viverra, lacus lectus egestas enim, ut mollis elit augue ac orci. </p>
-          <h3 id="webDevelopment">Web Development</h3>
-          <h4> Level 2</h4>
-            <img src="https://pixabay.com/get/gcaabab8bae2890fe6ac026d51f00f8f2a32b15ba51884ea11e8ccce48c5a10573a99011def5ed90ba570d81a817bc75e_640.jpg">
+          <h3 id="OurGames">Our Games</h3>
+         
+            <div class="row">
+              <div class="column">
+                
+                <p>Legends of Andor and all subsequent expansions, Fallout, Pandemic
+                   Tokaido
+                   Takenko
+                   Ticket to Ride
+                   Small World
+                   Dice Forge
+                   Civilization 
+                   Seasons
+                   Patch Work
+                   Rise of Tribes
+                   Sol 
+                   Megaland
+                   Tsuro
+                   Kingdom Builder
+                   Grimm Forest
+                   Evolution                       
+              
+                </p>
+              </div>
+            </div>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed urna nec arcu tempus dapibus ac sed diam. Maecenas
-      sit amet sollicitudin ipsum, et mollis risus. Quisque quam mauris, aliquam eget lacus a, tincidunt dictum justo. Nulla
-      justo elit, interdum eget urna id, rhoncus dictum nisl. In tempus efficitur eros eget fringilla. Nullam in libero ante.
-      Curabitur pellentesque massa venenatis, fringilla ipsum ac, fermentum lorem. Praesent facilisis posuere fermentum.
-      Integer non posuere lacus. Cras semper ipsum in augue scelerisque euismod. Vivamus rutrum condimentum ullamcorper.
-      Phasellus placerat sollicitudin diam, et consequat purus iaculis sit amet. Suspendisse tempor, erat non ultricies
-      viverra, lacus lectus egestas enim, ut mollis elit augue ac orci.</p>
-          <h3 id="appDevelopment">App Development</h3>
-          <h4>Level 3</h4>
-            <img src="https://pixabay.com/get/g2cf365a17936b93645e8c7a9ddc1d6874f9ca6b9c0c7b04382085f1081efdcd17f11bb1e7fcc69c30a899eedea308dd5_640.png">
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed urna nec arcu tempus dapibus ac sed diam. Maecenas
-      sit amet sollicitudin ipsum, et mollis risus. Quisque quam mauris, aliquam eget lacus a, tincidunt dictum justo. Nulla
-      justo elit, interdum eget urna id, rhoncus dictum nisl. In tempus efficitur eros eget fringilla. Nullam in libero ante.
-      Curabitur pellentesque massa venenatis, fringilla ipsum ac, fermentum lorem. Praesent facilisis posuere fermentum.
-      Integer non posuere lacus. Cras semper ipsum in augue scelerisque euismod. Vivamus rutrum condimentum ullamcorper.
-      Phasellus placerat sollicitudin diam, et consequat purus iaculis sit amet. Suspendisse tempor, erat non ultricies
-      viverra, lacus lectus egestas enim, ut mollis elit augue ac orci.</p>
+          <h3 id="Gamesweusedtoown">Games we used to own</h3>
+          
+            
 
-        <h3 id="pythonProgramming">Python Programming</h3>
-          <h4>Level 4</h4>
+            <p>
+              Betrayal House on the Hill
 
-            <img src="https://pixabay.com/get/g69532605f152ae0fdcc933084277e25c38593951e91759ad081292b1f7c6680e1672859eb24fb1a3721ad4f131f4b1ef_640.jpg">
+            </p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed urna nec arcu tempus dapibus ac sed diam. Maecenas
-      sit amet sollicitudin ipsum, et mollis risus. Quisque quam mauris, aliquam eget lacus a, tincidunt dictum justo. Nulla
-      justo elit, interdum eget urna id, rhoncus dictum nisl. In tempus efficitur eros eget fringilla. Nullam in libero ante.
-      Curabitur pellentesque massa venenatis, fringilla ipsum ac, fermentum lorem. Praesent facilisis posuere fermentum.
-      Integer non posuere lacus. Cras semper ipsum in augue scelerisque euismod. Vivamus rutrum condimentum ullamcorper.
-      Phasellus placerat sollicitudin diam, et consequat purus iaculis sit amet. Suspendisse tempor, erat non ultricies
-      viverra, lacus lectus egestas enim, ut mollis elit augue ac orci.</p>
+        <h3 id="Gameswishlist">Games Wishlist</h3>
+         
 
-        <h3 id="machineLearning">Machine Learning</h3>
-          <h4>Level 5</h4>
+           
+            <p>
+              Everdell
+              </p>
 
-            <img src="https://pixabay.com/get/g42f824b5865e10a96bcc0849ba8b763b6c84a3230d86e2d34ef0eebc51cf852cd0bfeaf4cb9cb189e04180d545ea297c_640.jpg">
+        <h3 id="GamesBecciowns">Games Becci Owns</h3>
+         
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed urna nec arcu tempus dapibus ac sed diam. Maecenas
-      sit amet sollicitudin ipsum, et mollis risus. Quisque quam mauris, aliquam eget lacus a, tincidunt dictum justo. Nulla
-      justo elit, interdum eget urna id, rhoncus dictum nisl. In tempus efficitur eros eget fringilla. Nullam in libero ante.
-      Curabitur pellentesque massa venenatis, fringilla ipsum ac, fermentum lorem. Praesent facilisis posuere fermentum.
-      Integer non posuere lacus. Cras semper ipsum in augue scelerisque euismod. Vivamus rutrum condimentum ullamcorper.
-      Phasellus placerat sollicitudin diam, et consequat purus iaculis sit amet. Suspendisse tempor, erat non ultricies
-      viverra, lacus lectus egestas enim, ut mollis elit augue ac orci.</p>
+           
 
-        <h3 id="interviewPrep">Interview Prep</h3>
-          <h4>Level 6</h4>
+            <p>
+              Everdell
+              </p>
 
-            <img src="https://pixabay.com/get/g57c52c9c408beead3bbe35debe45b86018681c9be4c755908cad143c4ba06d15dd48104b53ae52bc78f9eead24b6ff79_640.png">
+        <h3 id="GamesJarek&Sylwiaowns">Games Jarek and Sylwia Owns</h3>
+         
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed urna nec arcu tempus dapibus ac sed diam. Maecenas
-      sit amet sollicitudin ipsum, et mollis risus. Quisque quam mauris, aliquam eget lacus a, tincidunt dictum justo. Nulla
-      justo elit, interdum eget urna id, rhoncus dictum nisl. In tempus efficitur eros eget fringilla. Nullam in libero ante.
-      Curabitur pellentesque massa venenatis, fringilla ipsum ac, fermentum lorem. Praesent facilisis posuere fermentum.
-      Integer non posuere lacus. Cras semper ipsum in augue scelerisque euismod. Vivamus rutrum condimentum ullamcorper.
-      Phasellus placerat sollicitudin diam, et consequat purus iaculis sit amet. Suspendisse tempor, erat non ultricies
-      viverra, lacus lectus egestas enim, ut mollis elit augue ac orci.</p>
+           
+
+          <p>
+            Formuala D
+            </p>
 
 
 
