@@ -1,6 +1,6 @@
 header {
     background:url("https://cdn.pixabay.com/photo/2019/07/03/14/05/civilization-4314653_960_720.jpg");
-    color: rgb(3, 66, 201);
+    color: rgb(255, 255, 255);
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     
@@ -19,6 +19,7 @@ header {
       color: white;
       position: sticky;
       top: 0;
+      text-align: center;
     
     
     }
