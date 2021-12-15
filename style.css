@@ -41,13 +41,13 @@ header {
     
     
     }
-
+/* This is styling for the Headings like Welcome etc */
     h3 {
       color: blue;
       width: 30%;
       box-shadow: 10px 5px 5px blue;
     }
-    
+    /* this is for how the headings display properly */
     .ourgames {
       display: grid;
           
@@ -98,18 +98,25 @@ header {
             font-family: 'Courier New', Courier, monospace;
         }
     
-       #navigationBar{
+        #navigationBar{
     
-        background-color: black;
-        color: white;
-        position: sticky;
-        top: 0;
-        text-align: center;
+          background-color: black;
+          color: white;
+          position: sticky;
+          top: 0;
+          text-align: center;
+        
+        
+        }
     
-    
-    }
       .pageContent {
         flex-direction: column;
+      }
+
+      h3 {
+        color: blue;
+        width: 30%;
+        box-shadow: 10px 5px 5px blue;
       }
 
       .ourgames {
