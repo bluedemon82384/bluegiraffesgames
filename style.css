@@ -98,10 +98,16 @@ header {
             font-family: 'Courier New', Courier, monospace;
         }
     
-      #navigationBar {
-        position: relative;
-      }
+       #navigationBar{
     
+        background-color: black;
+        color: white;
+        position: sticky;
+        top: 0;
+        text-align: center;
+    
+    
+    }
       .pageContent {
         flex-direction: column;
       }
